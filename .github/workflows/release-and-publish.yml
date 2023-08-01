@@ -5,6 +5,9 @@ on:
     tags:
       - "20*"
 
+permissions:
+  id-token: write
+
 jobs:
   build-n-publish:
     name: Build and publish to PyPI

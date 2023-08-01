@@ -12,10 +12,11 @@ dependencies = ["matplotlib", "numpy", "pandas"]
 dynamic = ["version"]
 
 [project.urls]
-Homepage = "https://github.dev/blaylockbk/pandas-rose"
-Documentation = "https://github.dev/blaylockbk/pandas-rose"
-Repository = "https://github.dev/blaylockbk/pandas-rose"
-Changelog = "https://github.dev/blaylockbk/pandas-rose/releases"
+"Homepage" = "https://github.com/blaylockbk/pandas-rose"
+"Documentation" = "https://github.com/blaylockbk/pandas-rose"
+"Repository" = "https://github.com/blaylockbk/pandas-rose"
+"Changelog" = "https://github.com/blaylockbk/pandas-rose/releases"
+"Bug Tracker" = "https://github.com/blaylockbk/pandas-rose/issues"
 
 [project.optional-dependencies]
 docs = ["mkdocs-material"]

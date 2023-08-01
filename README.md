@@ -12,8 +12,6 @@ I don't mean to compete with the wonderful [windrose](https://github.com/python-
 
 # Install
 
-> ## TODO: Publish and Upload to PyPI
-
 Install with pip. The requirements are only pandas, numpy, and matplotlib.
 
 ```bash

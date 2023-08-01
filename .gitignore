@@ -1,5 +1,5 @@
 dist/
-rose/_version.py
+_version.py
 
 __pycache__/
 .ipynb_checkpoints

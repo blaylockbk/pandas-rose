@@ -1,0 +1,37 @@
+[project]
+name = "rose"
+description = "A simple Pandas accessor to make windrose plots."
+readme = "README.md"
+requires-python = ">=3.8"
+license = { file = "LICENSE" }
+authors = [{ name = "Brian Blaylock", email = "blaylockbk@gmail.com" }]
+maintainers = [{ name = "Brian Blaylock", email = "blaylockbk@gmail.com" }]
+classifiers = ["Programming Language :: Python"]
+keywords = ["weather", "meteorology", "wind"]
+dependencies = ["matplotlib", "numpy", "pandas"]
+dynamic = ["version"]
+
+[project.urls]
+Homepage = "https://github.dev/blaylockbk/pandas-rose"
+Documentation = "https://github.dev/blaylockbk/pandas-rose"
+Repository = "https://github.dev/blaylockbk/pandas-rose"
+Changelog = "https://github.dev/blaylockbk/pandas-rose/releases"
+
+[project.optional-dependencies]
+docs = ["mkdocs-material"]
+test = ["pytest", "black"]
+
+[build-system]
+requires = ["setuptools>=42", "wheel", "setuptools_scm[toml]>=3.4"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+py-modules = ["rose"]
+
+[tool.setuptools_scm]
+version_scheme = "post-release"
+local_scheme = "no-local-version"
+write_to = "rose/_version.py"
+
+[tool.isort]
+profile = "black"

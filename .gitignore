@@ -1,0 +1,17 @@
+dist/
+
+__pycache__/
+.ipynb_checkpoints
+*.py[cod]
+*$py.class
+*.log
+env_pypi.yml
+condaenv*
+.venv*
+
+.pytest_cache/
+
+dist/*
+build/*
+*.egg-info
+*.egg

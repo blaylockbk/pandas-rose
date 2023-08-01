@@ -1,5 +1,5 @@
 [project]
-name = "rose"
+name = "pandas-rose"
 description = "A simple Pandas accessor to make windrose plots."
 readme = "README.md"
 requires-python = ">=3.8"

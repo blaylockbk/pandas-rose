@@ -1,6 +1,6 @@
 <div align=center>
 
-<img src="images/pandas-rose.png" title="Bing Image Creator: Cartoon chunky panda hugging rose in the wind pixel art " width=200>
+<img src="https://raw.githubusercontent.com/blaylockbk/pandas-rose/main/images/pandas-rose.png" title="Bing Image Creator: Cartoon chunky panda hugging rose in the wind pixel art " width=200>
 
 </div>
 
@@ -39,7 +39,7 @@ df = pd.DataFrame({
 df.rose.plot()
 ```
 
-![Alt text](images/sample_plot.png)
+![Alt text](https://raw.githubusercontent.com/blaylockbk/pandas-rose/main/images/sample_plot.png)
 
 You can specify the pandas column to use for wind direction and wind speed. You may also change the number of sectors to bin the wind direction .
 
@@ -61,11 +61,11 @@ There are two other accessors that give some information.
 df.rose.table(sectors=8)
 ```
 
-![Alt text](images/sample_table.png)
+![Alt text](https://raw.githubusercontent.com/blaylockbk/pandas-rose/main/images/sample_table.png)
 
 ```python
 # Display the binned data as bar graph on regular axes.
 df.rose.bar()
 ```
 
-![Alt text](images/sample_bar.png)
+![Alt text](https://raw.githubusercontent.com/blaylockbk/pandas-rose/main/images/sample_bar.png)

@@ -84,7 +84,7 @@ class RoseAccessor:
 
         return ax
 
-    def plot(self, spacing=3, figsize=(7, 6), colors="viridis", **kwargs):
+    def plot(self, ax=None, spacing=3, figsize=(7, 6), colors="viridis", **kwargs):
         """Plot the binned data as a windrose
 
         Parameters
@@ -121,8 +121,10 @@ class RoseAccessor:
         nsectors, nbins = table.shape
         radian_locs = np.arange(0, np.pi * 2, np.pi * 2 / len(table))
 
-        fig = plt.figure(figsize=figsize)
-        ax = plt.subplot(projection="polar")
+        if ax is None:
+            fig = plt.figure(figsize=figsize)
+            ax = plt.subplot(projection="polar")
+
         ax.set_theta_zero_location("N")  # theta=0 at the top
         ax.set_theta_direction(-1)  # theta increasing clockwise
 

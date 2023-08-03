@@ -6,8 +6,8 @@ on:
       - "20*"
 
 jobs:
-  release-and-publish:
-    name: Build and publish to PyPI
+  pypi-release:
+    name: Publish release on PyPI
     runs-on: ubuntu-latest
     environment: release
     permissions:
@@ -30,5 +30,4 @@ jobs:
 
       - name: Publish distribution to PyPI
         uses: pypa/gh-action-pypi-publish@release/v1
-
 # Remember to manually create release on GitHub using the same tag.

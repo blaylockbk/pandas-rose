@@ -27,7 +27,7 @@ requires = ["setuptools>=42", "wheel", "setuptools_scm[toml]>=3.4"]
 build-backend = "setuptools.build_meta"
 
 [tool.setuptools]
-py-modules = ["rose"]
+packages = ["rose"]
 
 [tool.setuptools_scm]
 version_scheme = "post-release"

@@ -1,0 +1,15 @@
+@font-face {
+  font-family: "Hubot Sans";
+  src: "assets/fonts/Hubot-Sans.woff2";
+}
+
+@font-face {
+  font-family: 'Fira Code';
+  src: url('assets/fonts/FiraCode-Regular.woff2') format('woff2'),
+}
+
+
+:root {
+  --md-text-font: "Hubot Sans";
+  --md-code-font: "Fira Code";
+}

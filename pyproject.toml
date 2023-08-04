@@ -19,7 +19,7 @@ dynamic = ["version"]
 "Bug Tracker" = "https://github.com/blaylockbk/pandas-rose/issues"
 
 [project.optional-dependencies]
-docs = ["mkdocs-material"]
+docs = ["mkdocs-material", "mkdocs-jupyter"]
 test = ["pytest", "black"]
 
 [build-system]

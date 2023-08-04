@@ -1,0 +1,49 @@
+site_name: Pandas Rose
+copyright: Copyright &copy; Brian K. Blaylock
+
+theme:
+  name: material
+  custom_dir: docs/overrides
+  favicon: assets/pandas-rose.png
+  logo: assets/pandas-rose.png
+  features:
+    - navigation.footer
+    - content.code.copy
+
+  palette:
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+
+plugins:
+  - search
+  - mkdocs-jupyter:
+      include_source: True
+
+markdown_extensions:
+  - attr_list
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+
+extra_css:
+  - stylesheets/extra.css
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/blaylockbk/pandas-rose
